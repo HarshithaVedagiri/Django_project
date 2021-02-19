@@ -1,0 +1,11 @@
+{% extends "tasks/layout.html" %}
+
+{% block body %}
+        {% for task in tasks %}     <!-- to plug in a python logic, use these brackets -->
+            <li> {{ task }} </li>   <!-- to plug in a value,use these brackets -->
+        {% empty %}
+            <li> No Tasks </li>
+        {% endfor %} 
+    <a href = {% url "tasks:add" %}> Add tasks </a>   <!--to avoid collison of names such as "index" -->
+{% endblock %}
+
