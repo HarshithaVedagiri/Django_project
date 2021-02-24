@@ -41,3 +41,10 @@ by default, sessions are stored in atable in django
        
        python manage.py migrate
 this creats default tables 
+
+# ref_1
+https://docs.djangoproject.com/en/3.0/howto/windows/
+
+# ref_2
+https://www.youtube.com/watch?v=VuETrwKYLTM
+
